@@ -6,10 +6,11 @@ namespace ConsoleApp1
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Adınızı girin :");
-            string name = Console.ReadLine();
-            Console.WriteLine(name);
+            int ödev = 55;
+            Int32 deneme = 44;
+            Int64 toplam = ödev + deneme;
+            Console.WriteLine(toplam);
+
         }
     }
 }
